@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+#!
+for f in *.html
+do
+#!
+<url>
+	<loc>$1/$(basename "$f")</loc>
+	<lastmod>$(stat -f '%Sm' -t '%Y-%m-%dT%H:%M:%SZ' "$f")</lastmod>
+	<priority>1.0</priority>
+</url>
+#!
+done
+#!
+</urlset>
