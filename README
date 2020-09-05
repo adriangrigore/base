@@ -6,6 +6,6 @@ your own theme.
 # Files
 
 * `share/l.upphtml` - main layout file
-* `share/theme.uppcss` - `CSS` theme template
+* `share/s.uppcss` - `CSS` theme template
 * `share/sitemap.uppxml` - `sitemap.xml` template
 * `share/robots.upptxt` - `robots.txt` template
